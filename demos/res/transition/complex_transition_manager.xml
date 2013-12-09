@@ -1,0 +1,20 @@
+<transitionManager xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <transition android:fromScene="@layout/example_third_scene_1"
+                android:toScene="@layout/example_third_scene_2"
+                android:transition="@transition/change_bounds" />
+    <transition android:fromScene="@layout/example_third_scene_2"
+                android:toScene="@layout/example_third_scene_1"
+                android:transition="@transition/change_bounds" />
+
+
+    <transition android:toScene="@layout/example_third_scene_3"
+                android:transition="@transition/change_bounds" />
+    
+    <transition android:fromScene="@layout/example_third_scene_3"
+                android:toScene="@layout/example_third_scene_1"
+                android:transition="@transition/change_bounds" />
+    <transition android:fromScene="@layout/example_third_scene_3"
+                android:toScene="@layout/example_third_scene_2"
+                android:transition="@transition/change_bounds" />
+</transitionManager>
